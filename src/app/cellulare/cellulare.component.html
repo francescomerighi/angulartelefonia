@@ -1,0 +1,20 @@
+<div class="form-group">
+  <label>Marca</label>
+  <input type="text" class="form-control" placeholder="es. Samsung" [(ngModel)]="cellulare.marca">
+</div>
+<div class="form-group">
+  <label>Modello</label>
+  <input type="text" class="form-control" placeholder="es. A70" [(ngModel)]="cellulare.modello">
+</div>
+<div class="form-group">
+  <label>Colore</label>
+  <input type="text" class="form-control" placeholder="es. Bianco" [(ngModel)]="cellulare.colore">
+</div>
+<div class="form-group">
+  <label>Prezzo</label>
+  <input type="number" class="form-control" placeholder="€" [(ngModel)]="cellulare.prezzo">
+</div>
+<div class="form-group">
+  <label [ngStyle]="{'color': setColore()}">Anno Uscita</label>
+  <input type="text" class="form-control" placeholder="nnnn" [(ngModel)]="cellulare.annoUscita">
+</div>
